@@ -92,8 +92,8 @@
 
         dig {
             bindings = <
-            &kp AS(N1)      &kp AS(N2)      &kp AS(N3)      &kp AS(N4)      &kp AS(N5)                                      &kp AS(N6)      &kp AS(N7)      &kp AS(N8)      &kp AS(N9)      &kp AS(N0)
-            /* &kp EXCL        &kp AT_SIGN     &kp HASH        &kp DOLLAR      &kp PERCENT                                     &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR */
+            AS(N1)          AS(N2)          AS(N3)          AS(N4)          AS(N5)                                          AS(N6)          AS(N7)          AS(N8)          AS(N9)          AS(N0)
+         /* &kp EXCL        &kp AT_SIGN     &kp HASH        &kp DOLLAR      &kp PERCENT                                     &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR */
             &kp N1          &lhm LCTRL N2   &lhm LALT N3    &lhm LCMD N4    &lhm MEH N5                                     &rhm MEH N6     &rhm RCMD N7    &rhm RALT N8    &rhm RCTRL N9   &kp N0
             &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none 
                                                                             &kp LSHFT     &mo SYM            &trans         &trans
