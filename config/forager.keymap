@@ -103,7 +103,7 @@
         sym {
             bindings = <
             &kp ESC         &kp PLUS         &kp TILDE       &kp LBRC       &kp PIPE                                        &kp QMARK       &kp RBRC         &kp DQT         &kp UNDER        &kp BSPC
-            &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &hlm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT   &rhm RALT SQT   &rhm RCTRL MINUS &kp ENTER
+            &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &lhm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT   &rhm RALT SQT   &rhm RCTRL MINUS &kp ENTER
             &none           &none            &kp LPAR        &kp LESS_THAN  &kp SEMI                                        &kp COLON       &kp GREATER_THAN &kp RPAR        &none            &none 
                                                                             &trans          &trans          &kp LSHFT       &mo DIG
             >;
