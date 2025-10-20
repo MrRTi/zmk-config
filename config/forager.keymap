@@ -86,7 +86,7 @@
             &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P
             &kp A           &lhm LCTRL S    &lhm LALT D     &lhm LCMD F     &lhm MEH G                                      &rhm MEH H      &rhm RCMD J     &rhm RALT K     &rhm RCTRL L    AS(SEMI)
             &kp Z           &kp X           &kp C           &kp V           &kp B                                           &kp N           &kp M           AS(COMMA)       AS(DOT)         AS(FSLH)
-                                                                            &sym_bspc 2 0   &smart_shift    &smart_shift    &lt DIG SPACE
+                                                                            &smart_shift  &lt SYM SPACE      &sym_bspc 1 0  &smart_shift
             >;
         };
 
@@ -96,7 +96,7 @@
             /* &kp EXCL        &kp AT_SIGN     &kp HASH        &kp DOLLAR      &kp PERCENT                                     &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR */
             &kp N1          &lhm LCTRL N2   &lhm LALT N3    &lhm LCMD N4    &lhm MEH N5                                     &rhm MEH N6     &rhm RCMD N7    &rhm RALT N8    &rhm RCTRL N9   &kp N0
             &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none 
-                                                                            &mo SYM         &kp LSHFT       &trans          &trans
+                                                                            &kp LSHFT     &mo SYM            &trans         &trans
             >;
         };
 
@@ -105,7 +105,7 @@
             &kp ESC         &kp PLUS         &kp TILDE       &kp LBRC       &kp PIPE                                        &kp QMARK       &kp RBRC         &kp DQT         &kp UNDER        &kp BSPC
             &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &lhm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT   &rhm RALT SQT   &rhm RCTRL MINUS &kp ENTER
             &none           &none            &kp LPAR        &kp LESS_THAN  &kp SEMI                                        &kp COLON       &kp GREATER_THAN &kp RPAR        &none            &none 
-                                                                            &trans          &trans          &kp LSHFT       &mo DIG
+                                                                            &trans          &trans           &mo DIG        &kp LSHFT       
             >;
         };
 
