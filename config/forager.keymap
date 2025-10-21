@@ -96,7 +96,7 @@
          /* &kp EXCL        &kp AT_SIGN     &kp HASH        &kp DOLLAR      &kp PERCENT                                     &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR */
             &kp N1          &lhm LCTRL N2   &lhm LALT N3    &lhm LCMD N4    &lhm MEH N5                                     &rhm MEH N6     &rhm RCMD N7    &rhm RALT N8    &rhm RCTRL N9   &kp N0
             &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none 
-                                                                            &mp LSHFT CAPS  &mo SYM          &trans         &trans
+                                                                            &mt LSHFT CAPS  &mo SYM          &trans         &trans
             >;
         };
 
@@ -105,7 +105,7 @@
             &kp ESC         &kp PLUS         &kp TILDE       &kp LBRC       &kp PIPE                                        &kp QMARK       &kp RBRC         &kp DQT         &kp UNDER        &kp BSPC
             &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &lhm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT   &rhm RALT SQT   &rhm RCTRL MINUS &kp ENTER
             &kp CAPSLOCK    &none            &kp LPAR        &kp LESS_THAN  &kp SEMI                                        &kp COLON       &kp GREATER_THAN &kp RPAR        &none            &none 
-                                                                            &trans          &trans           &mo DIG        &mp LSHFT CAPS       
+                                                                            &trans          &trans           &mo DIG        &mt LSHFT CAPS       
             >;
         };
 
