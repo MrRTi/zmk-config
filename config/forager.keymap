@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&sk LSHFT>, <&caps_word>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LALT|MOD_RALT)>;
         };
         sym_bspc: left_thumb_hold_tap {
             compatible = "zmk,behavior-hold-tap";
