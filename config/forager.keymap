@@ -113,9 +113,9 @@
 
         sym {
             bindings = <
-            &kp ESC         &kp PLUS         &kp TILDE       &kp LBRC       &kp PIPE                                        &kp QMARK       &kp RBRC         &kp DQT         &kp UNDER        &kp BSPC
-            &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &lhm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT   &rhm RALT SQT   &rhm RCTRL MINUS &kp ENTER
-            &kp CAPSLOCK    &none            &kp LPAR        &kp LESS_THAN  &kp SEMI                                        &kp COLON       &kp GREATER_THAN &kp RPAR        &none            &none 
+            &kp ESC         &kp PLUS         &kp TILDE       &kp LBRC       &kp PIPE                                        &kp QMARK       &kp RBRC        &kp DQT          &kp UNDER        &kp BSPC
+            &kp TAB         &lhm LCTRL EQUAL &lhm LALT GRAVE &lhm LCMD LBKT &lhm MEH BSLH                                   &rhm MEH FSLH   &rhm RCMD RBKT  &rhm RALT SQT    &rhm RCTRL MINUS &kp ENTER
+            &kp CAPSLOCK    &none            &kp LESS_THAN   &kp LPAR       &kp SEMI                                        &kp COLON       &kp RPAR        &kp GREATER_THAN &none            &none 
                                                                             &trans          &trans           &mo DIG        HTS(RSHFT) 
             >;
         };
